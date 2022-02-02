@@ -1,4 +1,4 @@
-import 'package:farmers/views/home_view.dart';
+import 'package:farmers/views/accounts/login_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class FarmerApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: const LoginView(),
     );
   }
 }
